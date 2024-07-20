@@ -459,7 +459,6 @@
         	
           </plugins>
         </pluginManagement>
-        <finalName>docker-spring-boot</finalName>
       </build>
     </profile>
   </profiles>
