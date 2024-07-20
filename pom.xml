@@ -437,6 +437,21 @@
                 </lifecycleMappingMetadata>
               </configuration>
             </plugin>
+            
+          	<plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <version>3.3.0</version>
+	            <configuration>
+	                <image>
+	                    <name>spring-petclinic</name>
+	                    <tags>
+	                        <tag>1.0</tag>
+	                    </tags>
+	                </image>
+	            </configuration>
+        	</plugin>
+        	
           </plugins>
         </pluginManagement>
       </build>
